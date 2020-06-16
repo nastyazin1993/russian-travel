@@ -1,0 +1,24 @@
+@import url(./_ru/header__lang-link_ru.css);
+@import url(./_en/header__lang-link_en.css);
+.header__lang-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    
+}
+
+@media screen and (max-width: 320px){
+.header__lang-links{
+   
+    line-height: 24px;
+    font-size: 18px;
+    padding-bottom: 4px;
+    }
+}
