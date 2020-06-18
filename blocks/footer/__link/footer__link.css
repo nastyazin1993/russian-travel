@@ -11,6 +11,7 @@ padding-right: 18px;
 .footer__link:hover{
     opacity: 0.8;
     cursor: pointer;
+    transition: ease opacity 1s;
     }
 
 @media screen and (max-width: 320px){

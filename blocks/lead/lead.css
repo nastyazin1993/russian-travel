@@ -2,22 +2,31 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
-/*.lead{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    /*width: calc(100%-296px);
-    padding: 56px 148px 0;*/
-    /*margin: auto;
 
-}*/
 .lead{
-    display: grid;
-    width: 100%;
-   /* width: calc(100%-296px);
-    padding: 56px 148px 0;
-    /*margin: auto;*/
-
+   /*display: grid;*/
+   /* width: 100%;*/
+   /*max-width: 984px;*/
+   padding: 0 148px;
+   
+ 
 }
-
+@media screen and (max-width: 1024px){
+    
+    .lead{     
+        padding: 0 48px;
+    }
+}
+@media screen and (max-width: 768px){
+   
+    .lead{
+        
+        padding: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .lead{
+        
+        padding: 0;
+    }
+}

@@ -1,7 +1,10 @@
 .cover__title{
-/*width: calc(100%-624px);*/
+
 margin: 0;
-padding: 245px 312px 0;
+max-width: 560px;
+padding-top: 245px;
+margin: auto;
+/*padding: 245px 312px 0;*/
 font-family: Inter;
 font-style: normal;
 font-weight: 900;
@@ -14,25 +17,25 @@ z-index: 1;
 }
 @media screen and (max-width:1024px){
     .cover__title{
-        margin: 0;
-        padding: 195px 232px 0;
+       padding-top: 195px;
+        
         
         }
 }
 
 @media screen and (max-width:768px){
     .cover__title{
-        margin: 0;
-        padding: 115px 104px 0;
+        
+        padding-top: 115px;
         
         }
 }
 @media screen and (max-width:320px){
     .cover__title{
-        margin: 0;
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        padding: 33px 16px 0;
+        padding-top: 33px;
         
         }
 }
