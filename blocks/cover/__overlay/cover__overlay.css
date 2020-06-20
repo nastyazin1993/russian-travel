@@ -7,8 +7,6 @@
 }
 
 .cover__overlay:hover{
-    padding: inherit;
     background-color: rgba(42, 44, 47, 0.8);;
     transition: ease background-color 1s;
-    
 }
