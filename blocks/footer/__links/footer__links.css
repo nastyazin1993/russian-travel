@@ -1,4 +1,4 @@
-.footer__links{
+.footer__links {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,12 +6,12 @@
     flex-direction: row;
     align-self: flex-start;
     flex-wrap: wrap;
-    
 }
 
-@media screen and (max-width: 320px){
-    .footer__links{
+@media screen and (max-width: 320px) {
+    .footer__links {
         display: block;
-        
+
         padding-bottom: 16px;
-    }}
+    }
+}

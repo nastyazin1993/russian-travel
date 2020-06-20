@@ -1,13 +1,12 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__background/cover__background.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__link/cover__link.css);
 .cover{
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     object-fit: cover;
-    overflow: hidden;
     background-repeat: no-repeat;
     margin: 12px 48px 92px;
 }
